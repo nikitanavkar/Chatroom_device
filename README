@@ -1,0 +1,25 @@
+This is the Assignment-3 Kernel Module Implementation of Operating Systems (CS550)
+==================================================================================
+
+Group members
+---------------------------------------------------------
+1) Name: Akash Jaiswal	
+   Email: ajaiswa3@binghamton.edu
+  
+1) Name: Nikita Shriram Navkar	
+   Email: nnavkar1@binghamton.edu
+
+Was code tested on vm?
+----------------------------------------------------------
+Yes
+
+How to load the kernel module?
+----------------------------------------------------------
+1) Clean 
+	>> make clean
+2) Build the program
+	>> make 
+3) Load the module	
+	>> sudo insmod bots_dev.ko
+4) Unload the module
+    >> sudo rmmod bots_dev
